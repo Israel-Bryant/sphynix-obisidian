@@ -13,6 +13,7 @@ Estrutura atual:
 
 ## Links Rapidos
 
+- [[AI Memory/00 - AI Memory Hub]]
 - [[01 - Estrutura da Marca]]
 - [[02 - Flow]]
 - [[03 - BarberFlow]]
@@ -45,11 +46,12 @@ Estrutura atual:
 
 ## Entrada Recomendada para IA
 
-1. [[99 - AI Context Pack]]
-2. [[10 - Estado Atual]]
-3. [[11 - Proxima Acao]]
-4. [[12 - Decisoes Irrevogaveis]]
-5. [[13 - Fonte de Verdade]]
+1. [[AI Memory/00 - AI Memory Hub]]
+2. [[99 - AI Context Pack]]
+3. [[10 - Estado Atual]]
+4. [[11 - Proxima Acao]]
+5. [[12 - Decisoes Irrevogaveis]]
+6. [[13 - Fonte de Verdade]]
 
 ## Repositorio
 

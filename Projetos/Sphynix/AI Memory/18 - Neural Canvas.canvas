@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"brain","type":"file","file":"Projetos/Sphynix/AI Memory/01 - Brain Interface.md","x":620,"y":220,"width":340,"height":220,"color":"5"},
+		{"id":"context","type":"file","file":"Projetos/Sphynix/99 - AI Context Pack.md","x":210,"y":60,"width":320,"height":180,"color":"4"},
+		{"id":"state","type":"file","file":"Projetos/Sphynix/10 - Estado Atual.md","x":1060,"y":40,"width":320,"height":180,"color":"2"},
+		{"id":"next","type":"file","file":"Projetos/Sphynix/11 - Proxima Acao.md","x":1060,"y":280,"width":320,"height":180,"color":"3"},
+		{"id":"decisions","type":"file","file":"Projetos/Sphynix/12 - Decisoes Irrevogaveis.md","x":1060,"y":520,"width":320,"height":180,"color":"6"},
+		{"id":"truth","type":"file","file":"Projetos/Sphynix/13 - Fonte de Verdade.md","x":210,"y":320,"width":320,"height":180,"color":"1"},
+		{"id":"repos","type":"file","file":"Projetos/Sphynix/AI Memory/15 - Repositorios.md","x":210,"y":560,"width":320,"height":180,"color":"4"},
+		{"id":"dashboard","type":"file","file":"Projetos/Sphynix/AI Memory/16 - AI Search Dashboard.md","x":620,"y":560,"width":340,"height":180,"color":"5"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"brain","toNode":"context","color":"4","fromSide":"left","toSide":"right"},
+		{"id":"e2","fromNode":"brain","toNode":"state","color":"2","fromSide":"right","toSide":"left"},
+		{"id":"e3","fromNode":"brain","toNode":"next","color":"3","fromSide":"right","toSide":"left"},
+		{"id":"e4","fromNode":"brain","toNode":"decisions","color":"6","fromSide":"bottom","toSide":"top"},
+		{"id":"e5","fromNode":"brain","toNode":"truth","color":"1","fromSide":"left","toSide":"right"},
+		{"id":"e6","fromNode":"brain","toNode":"repos","color":"4","fromSide":"bottom","toSide":"top"},
+		{"id":"e7","fromNode":"brain","toNode":"dashboard","color":"5","fromSide":"bottom","toSide":"top"}
+	]
+}

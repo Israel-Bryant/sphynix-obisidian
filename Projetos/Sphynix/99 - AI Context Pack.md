@@ -72,6 +72,8 @@ BarberFlow = primeira implementacao valida e pronta para lancamento
 
 ## Source of Truth
 
+- AI memory index: [[AI Memory/00 - AI Memory Hub]]
+- repositorios: [[AI Memory/15 - Repositorios]]
 - estado operacional: [[10 - Estado Atual]]
 - proxima execucao: [[11 - Proxima Acao]]
 - decisoes fixas: [[12 - Decisoes Irrevogaveis]]
