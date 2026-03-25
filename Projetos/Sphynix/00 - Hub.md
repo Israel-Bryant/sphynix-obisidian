@@ -16,7 +16,16 @@ Estrutura atual:
 - [[01 - Estrutura da Marca]]
 - [[02 - Flow]]
 - [[03 - BarberFlow]]
+- [[10 - Estado Atual]]
+- [[11 - Proxima Acao]]
+- [[12 - Decisoes Irrevogaveis]]
+- [[13 - Fonte de Verdade]]
+- [[14 - Glossario]]
+- [[05 - Decisao Estrategica do Flow]]
+- [[06 - Lancamento BarberFlow - Fase 1]]
+- [[07 - Rede Social e Marketplace]]
 - [[04 - Handoff para Outro Codex]]
+- [[99 - AI Context Pack]]
 
 ## Status Atual
 
@@ -24,6 +33,23 @@ Estrutura atual:
 - Linha **Flow** posicionada como frente especifica da empresa
 - Pagina inicial do **BarberFlow** criada
 - GitHub atualizado com a estrutura atual
+- Estrategia consolidada: um unico app chamado **Flow**
+- **BarberFlow** definido como porta de entrada e primeira categoria forte
+
+## Prioridades Atuais
+
+1. Lancar BarberFlow imediatamente
+2. Validar tracao real no nicho de barbearia
+3. Ativar camada social desde o dia 1
+4. Expandir para multiservicos so depois da validacao
+
+## Entrada Recomendada para IA
+
+1. [[99 - AI Context Pack]]
+2. [[10 - Estado Atual]]
+3. [[11 - Proxima Acao]]
+4. [[12 - Decisoes Irrevogaveis]]
+5. [[13 - Fonte de Verdade]]
 
 ## Repositorio
 

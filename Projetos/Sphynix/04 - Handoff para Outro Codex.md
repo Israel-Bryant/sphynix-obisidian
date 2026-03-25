@@ -1,26 +1,34 @@
+---
+type: handoff
+project: sphynix-shop
+status: reusable
+tags:
+  - codex
+  - handoff
+---
 # Handoff para Outro Codex
+
+## AI Quick Context
+
+- `Sphynix` = holding
+- `Sphynix Platform` = infraestrutura
+- `Flow` = linha especifica de produtos
+- `Flow` = mobile-first
+- `BarberFlow` = primeiro produto real da linha
 
 ## Repo
 
 - `https://github.com/Israel-Bryant/sphinyx-shop`
 - branch: `main`
 
-## Contexto
-
-- Sphynix = holding
-- Sphynix Platform = infraestrutura
-- Flow = linha especifica de produtos
-- Flow = mobile-first
-- BarberFlow = primeiro produto real da linha
-
-## Stack
+## Tech Stack
 
 - Next.js 16
 - React 19
 - TypeScript
 - Tailwind CSS 4
 
-## Rotas Importantes
+## Important Routes
 
 - `/`
 - `/flow`
@@ -28,7 +36,7 @@
 - `/marketplace`
 - `/launcher`
 
-## Arquivos Principais
+## Important Files
 
 - `src/app/page.tsx`
 - `src/app/flow/page.tsx`
@@ -37,7 +45,7 @@
 - `src/lib/flow-products.ts`
 - `src/lib/store-links.ts`
 
-## O Que Ja Esta Feito
+## What Is Already Done
 
 - estrutura institucional da Sphynix como holding
 - Flow posicionado como linha mobile-first
@@ -45,20 +53,31 @@
 - primeiro produto cadastrado: BarberFlow
 - dados centralizados em `src/lib/flow-products.ts`
 
-## Objetivo Agora
+## Current Objective
 
 - continuar a pagina do BarberFlow
 - preparar entrada de descricao real
 - preparar screenshots reais
 - preparar links reais da App Store e Google Play
 
-## Onde Editar Conteudo
+## Content Source of Truth
 
-- `src/lib/flow-products.ts`
+- editar conteudo em `src/lib/flow-products.ts`
+- colocar imagens em `public/products/barberflow/`
 
-## Onde Colocar Imagens
+## Guardrails
 
-- `public/products/barberflow/`
+- nao mudar o posicionamento institucional da marca
+- manter Flow como linha separada dentro da Sphynix
+- manter BarberFlow como produto da linha Flow
+- revisar rotas e estrutura antes de editar
+
+## Related Notes
+
+- [[05 - Decisao Estrategica do Flow]]
+- [[06 - Lancamento BarberFlow - Fase 1]]
+- [[07 - Rede Social e Marketplace]]
+- [[99 - AI Context Pack]]
 
 ## Prompt Pronto
 

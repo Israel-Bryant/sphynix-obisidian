@@ -15,6 +15,25 @@ E:
 - uma frente propria
 - mobile-first
 - focada em automacao de servicos
+- um unico app multisservicos
+- uma base para marketplace + rede social
+
+## Decisao Estrategica Atual
+
+Flow sera **um unico app**, nao varios apps separados por nicho.
+
+Leitura atual:
+
+- **BarberFlow** nao morre
+- BarberFlow vira a categoria de entrada mais forte
+- o lancamento comeca nichado em barbearia
+- a expansao vem depois da validacao
+
+Veja tambem:
+
+- [[05 - Decisao Estrategica do Flow]]
+- [[06 - Lancamento BarberFlow - Fase 1]]
+- [[07 - Rede Social e Marketplace]]
 
 ## Posicionamento
 
@@ -33,6 +52,8 @@ Estrutura recomendada:
 - agenda
 - relacionamento com clientes
 - recorrencia
+- feed social com descoberta
+- agendamento dentro do conteudo
 
 ## Produtos da Linha
 
@@ -44,3 +65,4 @@ Estrutura recomendada:
 - marketplace de profissionais
 - camada de descoberta tipo rede social
 - integracao com pagamentos
+- liberacao progressiva de novas categorias
