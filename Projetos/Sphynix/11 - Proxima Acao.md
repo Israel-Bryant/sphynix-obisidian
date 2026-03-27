@@ -17,13 +17,14 @@ Se uma IA retomar o projeto agora, ela deve priorizar estas acoes nesta ordem.
 
 ## Ordered Actions
 
-1. amanha de manha abrir [[08 - Publicacao iOS sem Mac]] e executar o fluxo do Codemagic para gerar a build iOS
-2. finalizar o cadastro do app no App Store Connect com calma e sem pular campos obrigatorios
-3. decidir conscientemente a estrategia do premium no iPhone nesta primeira release
-4. reunir screenshots reais do app
-5. publicar o app nas lojas
-6. preparar onboarding focado em barbeiros
-7. iniciar aquisicao com foco em barbeiros
+1. amanha de manha abrir [[20 - Log de Execucao Recente]] e retomar o bloqueio do App Store Connect pela ficha da versao
+2. tentar criar uma nova versao limpa no App Store Connect e anexar a build valida sem assinaturas
+3. se o conflito persistir, abrir chamado no suporte da Apple com o contexto tecnico ja levantado
+4. decidir conscientemente a estrategia do premium no iPhone nesta primeira release
+5. reunir screenshots reais do app
+6. publicar o app nas lojas
+7. preparar onboarding focado em barbeiros
+8. iniciar aquisicao com foco em barbeiros
 
 ## If Working On Code
 
