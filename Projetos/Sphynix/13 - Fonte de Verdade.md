@@ -36,6 +36,13 @@ Codigo principal do site:
 - repo: `https://github.com/Israel-Bryant/sphinyx-shop`
 - branch: `main`
 
+Codigo principal do app Flutter:
+
+- repo: `https://github.com/Israel-Bryant/barberflow-sphynix`
+- branch: `main`
+- pipeline iOS: `codemagic.yaml`
+- nota operacional iOS: [[08 - Publicacao iOS sem Mac]]
+
 Arquivos importantes:
 
 - `src/app/page.tsx`

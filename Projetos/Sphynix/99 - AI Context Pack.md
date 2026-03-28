@@ -62,6 +62,15 @@ BarberFlow = primeira implementacao valida e pronta para lancamento
 - branch: `main`
 - stack: Next.js 16 + React 19 + TypeScript + Tailwind CSS 4
 
+## App Context
+
+- repo app Flutter: `https://github.com/Israel-Bryant/barberflow-sphynix`
+- branch: `main`
+- build iOS atual: via `Codemagic`
+- signing Apple: ja configurado em nivel operacional
+- build iOS ja gerada e visivel no App Store Connect
+- foco tecnico imediato: destravar a ficha da versao/submissao no App Store Connect
+
 ## Important Routes
 
 - `/`
@@ -76,6 +85,7 @@ BarberFlow = primeira implementacao valida e pronta para lancamento
 - repositorios: [[AI Memory/15 - Repositorios]]
 - estado operacional: [[10 - Estado Atual]]
 - proxima execucao: [[11 - Proxima Acao]]
+- publicacao iOS: [[08 - Publicacao iOS sem Mac]]
 - decisoes fixas: [[12 - Decisoes Irrevogaveis]]
 - fontes oficiais: [[13 - Fonte de Verdade]]
 - glossario: [[14 - Glossario]]

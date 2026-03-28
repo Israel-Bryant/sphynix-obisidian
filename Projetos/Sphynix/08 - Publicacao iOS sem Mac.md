@@ -21,6 +21,33 @@ Registrar o caminho pratico para subir o BarberFlow na Apple sem possuir um Mac 
 - o caminho mais direto para este caso e usar CI/CD com maquina Mac
 - a opcao recomendada para o BarberFlow e `Codemagic`
 
+## Current Execution Status
+
+- `Codemagic` ja conectado ao repo `barberflow-sphynix`
+- workflow YAML reconhecido com sucesso
+- App Store Connect API key criada
+- certificado de distribuicao ja importado no Codemagic
+- provisioning profile App Store ja criado e adicionado
+- bloqueios de signing Apple ja foram superados
+- build iOS ja foi gerada com sucesso
+- a build ja aparece no App Store Connect
+- o bloqueio atual saiu do build e foi para a ficha da versao no App Store Connect
+
+## Recent Technical Changes
+
+- `ios/Podfile` foi adicionado ao repo do app
+- `ios/Flutter/Debug.xcconfig` e `ios/Flutter/Release.xcconfig` foram corrigidos
+- `codemagic.yaml` foi criado no repo do app
+- `flutter analyze` deixou de bloquear a release no Codemagic
+- dependencias Firebase do app foram alinhadas para uma linha mais nova no `pubspec.yaml`
+- pasta `assets/animations/` foi criada para remover ruido de build
+
+## Current Build Target
+
+- compilacao validada: `1.0.1 (8)`
+- objetivo imediato: destravar a ficha da versao no App Store Connect
+- se necessario, criar uma nova versao limpa e anexar a build valida
+
 ## Tomorrow Morning Reminder
 
 Ao abrir o trabalho amanha de manha:
@@ -94,8 +121,7 @@ Depois do build:
 
 ## Success Criteria
 
-- build iOS gerada em CI
-- build aparecendo no App Store Connect
+- build iOS gerada em CI e aparecendo no App Store Connect
 - app pronto para enviar para revisao
 
 ## Related Notes

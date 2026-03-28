@@ -34,6 +34,9 @@ tags:
 - dados de produto centralizados em `src/lib/flow-products.ts`
 - app Flutter com Apple Sign-In no iPhone, exclusao de conta, restaurar compras e endurecimento da agenda em equipe
 - backend do app com protecao contra duplo agendamento e fluxo de exclusao mais seguro
+- repo Flutter `barberflow-sphynix` com pipeline inicial de `Codemagic` configurado
+- assinatura iOS ja estruturada no Codemagic
+- build iOS gerada com sucesso e aparecendo no App Store Connect
 
 ## Product State
 
@@ -59,6 +62,9 @@ tags:
 - archive e validacao final no Xcode / iPhone real
 - estrategia explicita para premium no iPhone enquanto a App Store Server API nao existe
 - screenshots reais finais
+- publicacao nas lojas
+- material comercial final
+- links reais App Store / Google Play
 - operacao de aquisicao inicial
 
 ## Related Notes
