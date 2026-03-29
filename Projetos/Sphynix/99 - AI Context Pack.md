@@ -42,9 +42,11 @@ Flow = marketplace de servicos + rede social de trabalhos
 
 BarberFlow = primeira implementacao valida e pronta para lancamento
 
+Flow repo paralelo = construcao do core multisservicos com onboarding, workspace, agenda e discovery proprios
+
 ## Launch Priority
 
-- lancar BarberFlow imediatamente
+- lancar BarberFlow de forma controlada
 - focar marketing em barbeiros
 - medir tracao real
 - expandir categorias apenas depois de sinais claros
@@ -58,9 +60,12 @@ BarberFlow = primeira implementacao valida e pronta para lancamento
 
 ## Code Context
 
-- repo: `https://github.com/Israel-Bryant/sphinyx-shop`
-- branch: `main`
-- stack: Next.js 16 + React 19 + TypeScript + Tailwind CSS 4
+- site repo: `https://github.com/Israel-Bryant/sphinyx-shop`
+- app repo: `https://github.com/Israel-Bryant/barberflow-sphynix`
+- vault repo: `https://github.com/Israel-Bryant/sphynix-obisidian`
+- branch principal: `main`
+- site stack: Next.js 16 + React 19 + TypeScript + Tailwind CSS 4
+- app stack: Flutter + Firebase Functions
 
 ## App Context
 
@@ -76,8 +81,21 @@ BarberFlow = primeira implementacao valida e pronta para lancamento
 - `/`
 - `/flow`
 - `/flow/barberflow`
+- `/flow/barberflow/privacy`
+- `/flow/barberflow/terms`
 - `/marketplace`
 - `/launcher`
+
+## Operational Reality
+
+- `sphynix.com` esta no ar e servindo a experiencia web do BarberFlow
+- as paginas legais do BarberFlow ja existem no dominio oficial
+- o app Flutter ja recebeu Apple Sign-In, exclusao de conta e endurecimento de agenda
+- a compra nativa no iPhone esta bloqueada por design ate existir backend real para validacao da App Store
+- o foco operacional atual e lancar sem regressao, nao abrir nova frente de produto
+- em paralelo, o `Flow` esta sendo estruturado em repo proprio como produto social + operacional
+- o `Flow` ja tem base de onboarding de prestador, workspace/time, convite, agenda real e perfil publico
+- a linguagem desejada do `Flow` e `fluidez social com consequencia operacional`
 
 ## Source of Truth
 
@@ -100,3 +118,4 @@ BarberFlow = primeira implementacao valida e pronta para lancamento
 - nao tratar BarberFlow como produto descartado
 - nao remover a camada social do conceito do produto
 - nao expandir cedo demais sem validacao do nicho
+- nao assumir que premium iOS nativo ja esta pronto

@@ -55,6 +55,26 @@ Estrutura recomendada:
 - feed social com descoberta
 - agendamento dentro do conteudo
 
+## Estado de Produto Mais Recente
+
+- existe um repositorio proprio do `Flow`, separado do `BarberFlow`
+- o `Flow` esta sendo desenhado como `core + presets`, sem mexer no BarberFlow
+- o onboarding do prestador agora e um wizard curto com preset, modo operacional e disponibilidade inicial
+- o modelo de time foi desenhado como `workspace` com `owner`, `manager` e `collaborator`
+- convite de colaborador parte de uma conta existente no Flow
+- o core ja contempla agenda por horario, fila, aprovacao manual e modelo hibrido
+- a agenda real do Flow ja foi ligada em colecoes proprias do Firestore
+- o perfil publico do prestador ja conversa com direct, agenda e presenca publica dentro do app
+- a direcao de interface esta caminhando para `fluidez social com consequencia operacional`
+
+## Regras Atuais do Flow
+
+- cliente entra dentro do ecossistema do Flow
+- o principal caminho de descoberta e perfil publico, busca, feed e deep link
+- chat considerado agora e `cliente ↔ prestador/time`
+- billing e copy nao sao foco desta fase
+- a prioridade atual e funcionalidade, interface e atratividade do produto
+
 ## Produtos da Linha
 
 - [[03 - BarberFlow]]

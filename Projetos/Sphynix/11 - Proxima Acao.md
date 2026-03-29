@@ -26,6 +26,16 @@ Se uma IA retomar o projeto agora, ela deve priorizar estas acoes nesta ordem.
 7. preparar onboarding focado em barbeiros
 8. iniciar aquisicao com foco em barbeiros
 
+## Faixa Paralela do Flow
+
+Quando a frente ativa for o produto `Flow`, a proxima execucao deve seguir assim:
+
+1. revisar a superficie `Descobrir`
+2. desenhar filtros e nichos com identidade visual propria, mas coesa
+3. manter a linguagem de `fluidez social com consequencia operacional`
+4. refinar perfil publico, colecoes e vitrine para ficarem mais autorais
+5. manter Firebase web, onboarding, workspace e agenda estaveis enquanto a camada visual evolui
+
 ## If Working On Code
 
 Prioridade de codigo:
@@ -34,6 +44,7 @@ Prioridade de codigo:
 2. so implementar billing iOS quando houver backend real para validacao da App Store
 3. melhorar pagina do produto para conversao
 4. manter `src/lib/flow-products.ts` como fonte central
+5. no Flow, priorizar funcionalidade + interface antes de billing e copy
 
 ## If Working On Produto
 

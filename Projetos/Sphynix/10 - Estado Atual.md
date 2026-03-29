@@ -18,6 +18,7 @@ tags:
 - app BarberFlow em Flutter esta pronto para submissao
 - ainda nao ha usuarios
 - foco atual e lancamento e validacao
+- Divine Chaos esta preservado como IP incubada em backlog
 
 ## Current State
 
@@ -37,6 +38,9 @@ tags:
 - repo Flutter `barberflow-sphynix` com pipeline inicial de `Codemagic` configurado
 - assinatura iOS ja estruturada no Codemagic
 - build iOS gerada com sucesso e aparecendo no App Store Connect
+- repo proprio do `Flow` em Flutter em evolucao paralela ao BarberFlow
+- Flow com `Flow Core` em construcao: presets, onboarding de prestador, workspace/time, convite de colaborador, permissao refinavel e agenda real por colecoes proprias no Firestore
+- Flow web agora com Firebase configurado de verdade, inclusive app web cadastrado no projeto `flow-sphynix`
 
 ## Product State
 
@@ -48,6 +52,10 @@ tags:
 - zero usuarios
 - lancamento iminente
 - estrategia de nicho definida
+- `Divine Chaos` e `Divine Chaos Beasts` nao sao prioridade operacional no momento
+- Flow segue em fase de construcao de produto, sem depender de alteracoes no BarberFlow
+- direcao visual do Flow migrando para uma linguagem mais social, viva e menos encaixotada
+- perfil publico do prestador, inbox, chat, agenda e discovery ja receberam uma primeira rodada forte de microinteracoes
 
 ## Business State
 
@@ -66,10 +74,13 @@ tags:
 - material comercial final
 - links reais App Store / Google Play
 - operacao de aquisicao inicial
+- consolidar a experiencia do Flow sem perder simplicidade
+- revisar `Descobrir`, filtros e nichos com identidade propria, sem virar carnaval visual
 
 ## Related Notes
 
 - [[11 - Proxima Acao]]
 - [[12 - Decisoes Irrevogaveis]]
 - [[13 - Fonte de Verdade]]
+- [[15 - Cofre de Ideias e Backlog]]
 - [[99 - AI Context Pack]]
