@@ -51,6 +51,42 @@ tags:
 - premium nativo no iPhone continua bloqueado por design nesta fase
 - nao reintroduzir assinaturas na submissao ate o fluxo da Apple ficar estabilizado
 
+## 2026-04-01 - Reset da frente Apple e novo app record
+
+### Contexto
+
+- a build `1.0.1 (11)` foi gerada no Codemagic e validada com sucesso
+- o binario novo confirmou `Criptografia nao isenta: Nao`
+- mesmo com build nova, screenshots preenchidas e compilacao anexada, o App Store Connect seguia retornando `PATCH ... appStoreVersions ... 409 (Conflict)`
+- a ficha antiga foi finalmente removida para parar de desperdiçar tempo operacional
+
+### O que ficou provado
+
+- o problema nao estava no binario do app
+- o problema nao estava nas capturas de tela
+- o problema nao estava na chave de criptografia do `Info.plist`
+- o problema estava no registro/ficha de submissao da Apple
+
+### O que foi feito
+
+- `ITSAppUsesNonExemptEncryption = false` foi adicionado no projeto iOS
+- o CI do Codemagic foi ajustado para ignorar o subprojeto `public_booking_web` na analise da raiz
+- a build `1.0.1 (11)` foi aceita pela Apple
+- um novo App ID / app record iOS foi criado com o bundle id `com.sphynx.barberflowapp`
+
+### Proxima sequencia correta
+
+1. atualizar o projeto Flutter/iOS para `com.sphynx.barberflowapp`
+2. recriar o app iOS no Firebase
+3. trocar o `GoogleService-Info.plist`
+4. atualizar o `codemagic.yaml` e o signing
+5. gerar nova build e anexar no novo app record
+
+### Observacao importante
+
+- o bloqueio da Apple deixou de ser interpretado como erro do app
+- a frente iOS agora depende de alinhamento de identificadores, nao de mais debugging do binario
+
 ## 2026-03-29 - Evolucao forte do Flow Core e do front
 
 ### Contexto

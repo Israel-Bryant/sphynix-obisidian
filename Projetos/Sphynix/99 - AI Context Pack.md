@@ -92,6 +92,8 @@ Flow repo paralelo = construcao do core multisservicos com onboarding, workspace
 - as paginas legais do BarberFlow ja existem no dominio oficial
 - o app Flutter ja recebeu Apple Sign-In, exclusao de conta e endurecimento de agenda
 - a compra nativa no iPhone esta bloqueada por design ate existir backend real para validacao da App Store
+- a build iOS `1.0.1 (11)` ja foi validada pela Apple, provando que o binario esta saudavel
+- a ficha antiga do App Store Connect foi descartada e o iOS agora segue em um novo app record com bundle id `com.sphynx.barberflowapp`
 - o foco operacional atual e lancar sem regressao, nao abrir nova frente de produto
 - em paralelo, o `Flow` esta sendo estruturado em repo proprio como produto social + operacional
 - o `Flow` ja tem base de onboarding de prestador, workspace/time, convite, agenda real e perfil publico

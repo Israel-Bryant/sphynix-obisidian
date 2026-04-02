@@ -16,27 +16,29 @@ tags:
 - `Flow` = mobile-first
 - `BarberFlow` = primeiro produto real da linha
 
-## Repo
+## Repos
 
-- `https://github.com/Israel-Bryant/sphinyx-shop`
-- branch: `main`
+- site: `https://github.com/Israel-Bryant/sphinyx-shop`
+- app: `https://github.com/Israel-Bryant/barberflow-sphynix`
+- vault: `https://github.com/Israel-Bryant/sphynix-obisidian`
+- branch principal: `main`
 
 ## Tech Stack
 
-- Next.js 16
-- React 19
-- TypeScript
-- Tailwind CSS 4
+- site: Next.js 16 + React 19 + TypeScript + Tailwind CSS 4
+- app: Flutter + Firebase + Firebase Functions
 
 ## Important Routes
 
 - `/`
 - `/flow`
 - `/flow/barberflow`
+- `/flow/barberflow/privacy`
+- `/flow/barberflow/terms`
 - `/marketplace`
 - `/launcher`
 
-## Important Files
+## Important Site Files
 
 - `src/app/page.tsx`
 - `src/app/flow/page.tsx`
@@ -45,6 +47,13 @@ tags:
 - `src/lib/flow-products.ts`
 - `src/lib/store-links.ts`
 
+## Important App Areas
+
+- auth
+- subscription / billing
+- schedule / team mode
+- functions backend
+
 ## What Is Already Done
 
 - estrutura institucional da Sphynix como holding
@@ -52,13 +61,22 @@ tags:
 - pagina dinamica de produto em `/flow/[slug]`
 - primeiro produto cadastrado: BarberFlow
 - dados centralizados em `src/lib/flow-products.ts`
+- paginas legais do BarberFlow publicadas no dominio oficial
+- app Flutter endurecido para release
+- Apple Sign-In implementado no iPhone
+- exclusao de conta e exclusao de barbearia reforcadas
+- agenda em equipe e criacao de agendamento endurecidas
+- build iOS `1.0.1 (11)` validada pela Apple
+- ficha antiga do App Store Connect foi descartada por corrupcao/`409`
+- novo app record iOS criado com o bundle id `com.sphynx.barberflowapp`
 
 ## Current Objective
 
-- continuar a pagina do BarberFlow
-- preparar entrada de descricao real
-- preparar screenshots reais
-- preparar links reais da App Store e Google Play
+- fechar submissao nas lojas com seguranca
+- cadastrar o app na Apple
+- alinhar bundle id/Firebase/Codemagic ao novo app record iOS
+- preparar screenshots reais finais
+- manter a web institucional coerente com o app
 
 ## Content Source of Truth
 
@@ -71,6 +89,8 @@ tags:
 - manter Flow como linha separada dentro da Sphynix
 - manter BarberFlow como produto da linha Flow
 - revisar rotas e estrutura antes de editar
+- nao assumir que premium nativo no iPhone esta pronto
+- nao voltar a depurar a ficha antiga da Apple; seguir no app record novo
 
 ## Related Notes
 

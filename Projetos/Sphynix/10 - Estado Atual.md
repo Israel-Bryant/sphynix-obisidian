@@ -38,6 +38,7 @@ tags:
 - repo Flutter `barberflow-sphynix` com pipeline inicial de `Codemagic` configurado
 - assinatura iOS ja estruturada no Codemagic
 - build iOS gerada com sucesso e aparecendo no App Store Connect
+- pipeline iOS no Codemagic estabilizado o suficiente para gerar novas compilacoes validas
 - repo proprio do `Flow` em Flutter em evolucao paralela ao BarberFlow
 - Flow com `Flow Core` em construcao: presets, onboarding de prestador, workspace/time, convite de colaborador, permissao refinavel e agenda real por colecoes proprias no Firestore
 - Flow web agora com Firebase configurado de verdade, inclusive app web cadastrado no projeto `flow-sphynix`
@@ -49,6 +50,9 @@ tags:
 - fluxo de equipe e agenda endurecido
 - exclusao de conta e exclusao de barbearia com backend reforcado
 - compra nativa no iPhone segue bloqueada por design ate existir backend real da App Store
+- build iOS `1.0.1 (11)` validada pela Apple, com `Criptografia nao isenta: Nao`
+- ficha antiga do App Store Connect foi removida depois de varios conflitos `409`
+- um novo app record/App ID iOS foi recriado para destravar a submissao
 - zero usuarios
 - lancamento iminente
 - estrategia de nicho definida
@@ -66,8 +70,9 @@ tags:
 ## Current Bottlenecks
 
 - cadastro final do app na Apple
-- App Store Connect com forte indicio de ficha de versao quebrada na submissao iOS
-- archive e validacao final no Xcode / iPhone real
+- alinhar o projeto iOS ao novo bundle id `com.sphynx.barberflowapp`
+- recriar o app iOS correspondente no Firebase e atualizar `GoogleService-Info.plist`
+- atualizar Codemagic/signing para o novo bundle id antes da proxima build
 - estrategia explicita para premium no iPhone enquanto a App Store Server API nao existe
 - screenshots reais finais
 - publicacao nas lojas

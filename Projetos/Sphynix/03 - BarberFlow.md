@@ -36,6 +36,8 @@ Rota:
 Status de produto:
 
 - app Flutter 100% pronto
+- build iOS validada pela Apple
+- novo app record iOS recriado depois de corrupcao da ficha antiga
 - zero usuarios
 - lancamento iminente
 - foco inicial total em barbearia
@@ -50,6 +52,7 @@ Status de produto:
 - operacao de lancamento
 - campanha inicial de aquisicao
 - monitoramento das metricas de tracao
+- alinhar bundle id novo do iOS, Firebase iOS e Codemagic antes da nova compilacao
 
 ## Onde Editar no Projeto
 

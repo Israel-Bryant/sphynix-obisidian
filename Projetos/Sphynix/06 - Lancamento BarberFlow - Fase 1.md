@@ -29,6 +29,9 @@ Validar o produto e ganhar tracao inicial antes da expansao do Flow completo.
 ## Launch Checklist
 
 - [ ] Publicar app na Play Store / App Store
+- [ ] Alinhar bundle id iOS novo `com.sphynx.barberflowapp` no projeto
+- [ ] Recriar o app iOS no Firebase e atualizar o `GoogleService-Info.plist`
+- [ ] Gerar nova build iOS no Codemagic para o novo app record
 - [ ] Criar conta de anuncios
 - [ ] Rodar primeira campanha focada em barbeiros
 - [ ] Entrar em grupos de barbearia
