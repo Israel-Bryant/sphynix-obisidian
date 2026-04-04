@@ -53,6 +53,8 @@ tags:
 - build iOS `1.0.1 (11)` validada pela Apple, com `Criptografia nao isenta: Nao`
 - ficha antiga do App Store Connect foi removida depois de varios conflitos `409`
 - um novo app record/App ID iOS foi recriado para destravar a submissao
+- causa raiz do bloqueio iOS foi identificada no workflow do Codemagic: a build estava sendo exportada como `internal testing only`
+- depois da remocao desse flag, a nova compilacao passou a salvar corretamente na versao da App Store
 - zero usuarios
 - lancamento iminente
 - estrategia de nicho definida
@@ -70,9 +72,7 @@ tags:
 ## Current Bottlenecks
 
 - cadastro final do app na Apple
-- alinhar o projeto iOS ao novo bundle id `com.sphynx.barberflowapp`
-- recriar o app iOS correspondente no Firebase e atualizar `GoogleService-Info.plist`
-- atualizar Codemagic/signing para o novo bundle id antes da proxima build
+- acompanhar a review da Apple no app record novo
 - estrategia explicita para premium no iPhone enquanto a App Store Server API nao existe
 - screenshots reais finais
 - publicacao nas lojas

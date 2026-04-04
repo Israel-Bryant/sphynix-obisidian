@@ -36,7 +36,7 @@ Codigo principal do site:
 - repo: `https://github.com/Israel-Bryant/sphinyx-shop`
 - branch: `main`
 
-Codigo principal do app Flutter:
+Codigo principal do app:
 
 - repo: `https://github.com/Israel-Bryant/barberflow-sphynix`
 - branch: `main`
@@ -61,6 +61,11 @@ Conteudo do BarberFlow:
 Imagens do BarberFlow:
 
 - `public/products/barberflow/`
+
+URLs legais publicas do BarberFlow:
+
+- `https://sphynix.com/flow/barberflow/privacy`
+- `https://sphynix.com/flow/barberflow/terms`
 
 ## Handoff Truth
 

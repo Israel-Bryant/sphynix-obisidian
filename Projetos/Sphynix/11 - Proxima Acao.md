@@ -17,16 +17,12 @@ Se uma IA retomar o projeto agora, ela deve priorizar estas acoes nesta ordem.
 
 ## Ordered Actions
 
-1. amanha de manha abrir [[20 - Log de Execucao Recente]] e retomar o bloqueio do App Store Connect pela ficha da versao
-2. alinhar o projeto iOS do BarberFlow ao novo bundle id `com.sphynx.barberflowapp`
-3. recriar o app iOS no Firebase e substituir o `GoogleService-Info.plist`
-4. atualizar Codemagic/signing para o novo bundle id e gerar uma nova compilacao
-5. preencher o novo app record da Apple e anexar a build sem assinaturas
-6. decidir conscientemente a estrategia do premium no iPhone nesta primeira release
-7. reunir screenshots reais do app
-8. publicar o app nas lojas
-9. preparar onboarding focado em barbeiros
-10. iniciar aquisicao com foco em barbeiros
+1. acompanhar a submissao iOS no app novo e registrar qualquer nova exigencia da Apple
+2. decidir conscientemente a estrategia do premium no iPhone nesta primeira release
+3. reunir screenshots reais finais e material comercial definitivo
+4. publicar o app nas lojas
+5. preparar onboarding focado em barbeiros
+6. iniciar aquisicao com foco em barbeiros
 
 ## Faixa Paralela do Flow
 

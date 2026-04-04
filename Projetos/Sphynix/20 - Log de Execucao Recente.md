@@ -87,6 +87,38 @@ tags:
 - o bloqueio da Apple deixou de ser interpretado como erro do app
 - a frente iOS agora depende de alinhamento de identificadores, nao de mais debugging do binario
 
+## 2026-04-03 - Causa real encontrada no workflow do Codemagic
+
+### Contexto
+
+- mesmo com app record novo, bundle id novo, Firebase iOS novo e build valida, o App Store Connect seguia retornando `PATCH ... appStoreVersions ... 409 (Conflict)` sempre que a compilacao era anexada
+- a build aparecia normalmente no TestFlight e no app novo, o que confundia o diagnostico
+
+### Causa raiz
+
+- o workflow iOS no `Codemagic` estava exportando a build com:
+  - `testFlightInternalTestingOnly: true`
+- isso fazia a compilacao nascer como voltada apenas para teste interno do TestFlight
+- por isso ela podia ser validada e testada internamente, mas nao funcionava corretamente como build de submissao da App Store
+
+### Correcao aplicada
+
+- o flag `testFlightInternalTestingOnly` foi removido do `codemagic.yaml`
+- uma nova build foi gerada depois dessa mudanca
+- a nova compilacao finalmente permitiu salvar a versao normalmente no App Store Connect
+
+### Aprendizado operacional
+
+- quando a build aparece so como apta para teste interno e gera `409` ao anexar na versao da loja, revisar imediatamente o export do Codemagic
+- nao assumir que `build validada` significa `build elegivel para submissao`
+- `internal-only` pode mascarar o problema por varios dias porque a Apple aceita o binario, mas rejeita a relacao com a versao da loja
+
+### Estado depois da correcao
+
+- frente iOS voltou a andar
+- app novo na Apple aceitou a compilacao correta
+- pipeline Apple/Codemagic/Firebase/bundle id ficou coerente novamente
+
 ## 2026-03-29 - Evolucao forte do Flow Core e do front
 
 ### Contexto
