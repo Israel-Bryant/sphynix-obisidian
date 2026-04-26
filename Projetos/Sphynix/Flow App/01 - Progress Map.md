@@ -37,15 +37,16 @@ flowchart TB
   R --> R1[3.1.1 Payments: cadastro provider escondido no iOS]:::done
   R --> R2[Screenshots/metadados sem tela antiga]:::todo
   R --> R3[Resposta App Review preparada]:::done
+  R --> R4[QA pre-review corrigido e testado]:::done
 
   U --> U1[Hero e descoberta premium]:::done
   U --> U2[Grid, copy e contraste consistentes]:::doing
-  U --> U3[Estados vazios e onboarding cliente]:::todo
+  U --> U3[Estados vazios e onboarding cliente]:::doing
 
-  T --> T1[Git remoto canonico]:::doing
+  T --> T1[Git remoto canonico]:::done
   T --> T2[Codemagic branch correta]:::todo
   T --> T3[Quebrar discovery_hub_page]:::todo
-  T --> T4[Testes de rotas iOS]:::todo
+  T --> T4[Testes de regressao QA]:::done
 
   G --> G1[Metricas de descoberta]:::todo
   G --> G2[Funil cliente: buscar, salvar, conversar]:::todo
@@ -68,17 +69,17 @@ flowchart TB
 
 | Pilar | Progresso | Situacao |
 |---|---:|---|
-| App Review iOS | 70% | Corrigido no codigo, falta garantir build/reenvio |
-| UX premium | 80% | Forte, precisa consistencia fina |
-| Plataforma tecnica | 55% | Funciona, precisa repo/CI/testes e modularizacao |
+| App Review iOS | 78% | Codigo e QA corrigidos, falta garantir build/reenvio |
+| UX premium | 84% | Forte, precisa revisao visual em device real |
+| Plataforma tecnica | 62% | Testes de regressao adicionados, falta Codemagic e modularizacao |
 | Discovery social | 65% | Base boa, precisa medir sinais reais |
 | Monetizacao | 25% | Decisao estrategica pendente |
 | Operacao comercial | 20% | Ainda sem usuarios reais e funil validado |
 
 ## Semaforo Atual
 
-- Verde: visual premium, discovery, mapa, estrutura Flutter, Firebase base
-- Amarelo: App Review, Git/Codemagic, copy sensivel, screenshots
+- Verde: visual premium, discovery, mapa, estrutura Flutter, Firebase base, QA pre-review
+- Amarelo: App Review, Codemagic, screenshots/metadados, revisao em device real
 - Vermelho: modelo de monetizacao iOS ainda nao decidido
 
 ## Atualizacao Rapida

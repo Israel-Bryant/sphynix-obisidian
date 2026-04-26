@@ -39,6 +39,31 @@ tags:
 - Criada area `Flow App`.
 - Criados dashboard, progress map, roadmap e ritual de atualizacao.
 
+### QA Pre-Review
+
+- Rodados tres agentes de QA: cliente final, barbeiro/prestador e copy PT-BR.
+- Corrigidos riscos principais antes da build:
+- crash de colecao vazia
+- `Conta mestra` removida da entrada publica
+- mapa completo passou a abrir perfil de estabelecimento
+- agendamento visitante ganhou CTA `Entrar para agendar`
+- workspace endurecido contra convite/permissao indevida
+- perfil oculto agora sai de mapa/busca quando `publicProfileEnabled=false`
+- copy de prototipo removida de perfil e pontos visiveis
+- Commit enviado: `5efccbf Fix QA findings before review build`.
+
+### Testes
+
+- Adicionados testes de regressao para:
+- colecao vazia sem studio primario
+- perfil oculto fora do mapa
+- convite aceito apenas pelo usuario alvo
+- permissao de workspace bloqueando escalonamento
+- CTA de autenticacao no agendamento para visitante
+- `flutter analyze` passou.
+- `flutter test` passou com 6 testes.
+- Commit enviado: `60a92be Add regression tests for QA fixes`.
+
 ## Template de Atualizacao
 
 ### YYYY-MM-DD

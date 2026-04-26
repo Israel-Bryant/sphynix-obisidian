@@ -22,7 +22,9 @@ Estado de agora:
 - experiencia visual premium esta forte
 - Apple App Review apontou risco em cadastro de prestador/negocio
 - iOS foi ajustado para esconder criacao/ativacao profissional
-- commit de compliance existe: `68bfe89 Prepare iOS review compliance build`
+- commit de compliance inicial: `68bfe89 Prepare iOS review compliance build`
+- commit de QA pre-review: `5efccbf Fix QA findings before review build`
+- commit de testes de regressao: `60a92be Add regression tests for QA fixes`
 - branch enviada ao GitHub: `ios-review-compliance-flow`
 - Codemagic ainda depende de alinhar a branch monitorada
 
@@ -48,6 +50,7 @@ flowchart LR
 
   B --> B1[Cadastro prestador escondido no iOS]
   B --> B2[Texto de trial/assinatura removido]
+  B --> B3[QA bugs corrigidos + testes de regressao]
   C --> C1[Branch/remote precisam ficar canonicos]
   F --> F1[Discovery, mapa, salvos, direct]
 ```
@@ -56,21 +59,21 @@ flowchart LR
 
 | Area | Status | Progresso | Proxima acao |
 |---|---|---:|---|
-| App Review iOS | Em revisao | 70% | Confirmar build correta no Codemagic |
-| Compliance Apple | Em andamento | 75% | Revisar rotas e screenshots antes de reenviar |
-| UX premium | Forte | 80% | Padronizar copy, contraste e estados vazios |
+| App Review iOS | Em revisao | 78% | Confirmar build correta no Codemagic |
+| Compliance Apple | Em andamento | 85% | Revisar screenshots/metadados antes de reenviar |
+| UX premium | Forte | 84% | Revisao visual em device real |
 | Discovery social | Em construcao | 65% | Quebrar componentes e validar sinais reais |
-| Codemagic/Git | Instavel | 45% | Definir repo/branch canonicos |
+| Codemagic/Git | Parcial | 55% | Definir branch monitorada no Codemagic |
 | Monetizacao | Indefinida | 25% | Escolher: iOS cliente-only, web provider, ou IAP |
 | Obsidian/Memory | Reorganizando | 55% | Manter este dashboard atualizado a cada sessao |
 
 ## Prioridade Agora
 
-1. Garantir que o Codemagic gere uma build a partir da branch correta.
-2. Reenviar build iOS sem cadastro profissional e sem linguagem de trial externo.
-3. Atualizar screenshots/metadados para nao mostrar tela antiga de barbearia/trial.
+1. Garantir que o Codemagic gere uma build a partir de `ios-review-compliance-flow`.
+2. Atualizar screenshots/metadados para nao mostrar tela antiga de barbearia/trial.
+3. Reenviar build iOS sem cadastro profissional e sem linguagem de trial externo.
 4. Criar decisao formal sobre prestador no iOS: esconder, companion, ou IAP.
-5. Transformar o visual premium em sistema consistente.
+5. Rodar revisao visual em device real/iPad antes do envio final.
 
 ## Links Canonicos
 
