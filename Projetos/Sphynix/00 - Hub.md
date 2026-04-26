@@ -13,6 +13,10 @@ Estrutura atual:
 
 ## Links Rapidos
 
+- [[Flow App/00 - Flow App Dashboard]]
+- [[Flow App/01 - Progress Map]]
+- [[Flow App/01 - Flow Progress Canvas]]
+- [[Flow App/02 - Roadmap Longo Prazo]]
 - [[AI Memory/00 - AI Memory Hub]]
 - [[01 - Estrutura da Marca]]
 - [[02 - Flow]]
@@ -30,33 +34,37 @@ Estrutura atual:
 
 ## Status Atual
 
-- Site base em Next.js ja estruturado
-- Linha **Flow** posicionada como frente especifica da empresa
-- Pagina inicial do **BarberFlow** criada
-- GitHub atualizado com a estrutura atual
+- Flow App em Flutter esta em fase de revisao de loja
+- Apple apontou risco 3.1.1 por cadastro profissional/negocio
+- iOS foi ajustado temporariamente para esconder criacao/ativacao de prestador
+- Git/Codemagic precisam de branch canonica confirmada
 - Estrategia consolidada: um unico app chamado **Flow**
-- **BarberFlow** definido como porta de entrada e primeira categoria forte
+- **BarberFlow** continua como categoria de entrada e nicho inicial forte
 
 ## Prioridades Atuais
 
-1. Lancar BarberFlow imediatamente
-2. Validar tracao real no nicho de barbearia
-3. Ativar camada social desde o dia 1
-4. Expandir para multiservicos so depois da validacao
+1. Passar App Review iOS sem ambiguidade de pagamento externo
+2. Confirmar repo/branch que dispara Codemagic
+3. Reenviar build correta
+4. Validar experiencia cliente: descoberta, mapa, salvos e direct
+5. Decidir modelo definitivo para prestador no iOS
 
 ## Entrada Recomendada para IA
 
-1. [[AI Memory/00 - AI Memory Hub]]
-2. [[99 - AI Context Pack]]
-3. [[10 - Estado Atual]]
-4. [[11 - Proxima Acao]]
-5. [[12 - Decisoes Irrevogaveis]]
-6. [[13 - Fonte de Verdade]]
+1. [[Flow App/00 - Flow App Dashboard]]
+2. [[AI Memory/00 - AI Memory Hub]]
+3. [[99 - AI Context Pack]]
+4. [[10 - Estado Atual]]
+5. [[11 - Proxima Acao]]
+6. [[12 - Decisoes Irrevogaveis]]
+7. [[13 - Fonte de Verdade]]
 
 ## Repositorio
 
-- Repo: `https://github.com/Israel-Bryant/sphinyx-shop`
-- Branch principal: `main`
+- Site/ecossistema: `https://github.com/Israel-Bryant/sphinyx-shop`
+- App Flutter atual enviado para GitHub em: `https://github.com/Israel-Bryant/barberflow-sphynix`
+- Branch com compliance iOS: `ios-review-compliance-flow`
+- Pendente: confirmar branch monitorada pelo Codemagic
 
 ## Rotas Importantes
 

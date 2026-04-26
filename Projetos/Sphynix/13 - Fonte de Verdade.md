@@ -25,11 +25,22 @@ Decisoes de produto e estrategia:
 
 Estado e proxima prioridade:
 
+- [[Flow App/00 - Flow App Dashboard]]
+- [[Flow App/01 - Progress Map]]
+- [[Flow App/03 - Log de Progresso]]
 - [[10 - Estado Atual]]
 - [[11 - Proxima Acao]]
 - [[06 - Lancamento BarberFlow - Fase 1]]
 
 ## Technical Truth
+
+App Flutter atual:
+
+- workspace local: `C:\Users\israe\OneDrive\Documents\Projetos\Flow`
+- GitHub atual usado para push: `https://github.com/Israel-Bryant/barberflow-sphynix`
+- branch compliance iOS: `ios-review-compliance-flow`
+- commit compliance iOS: `68bfe89 Prepare iOS review compliance build`
+- pendente: confirmar branch monitorada pelo Codemagic
 
 Codigo principal do site:
 
@@ -71,5 +82,6 @@ URLs legais publicas do BarberFlow:
 
 Quando for passar contexto para outra IA:
 
+- [[Flow App/00 - Flow App Dashboard]]
 - [[04 - Handoff para Outro Codex]]
 - [[99 - AI Context Pack]]

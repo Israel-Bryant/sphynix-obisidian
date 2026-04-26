@@ -38,16 +38,19 @@ Use esta nota quando for necessario:
 
 ## Current Product Model
 
-Flow = marketplace de servicos + rede social de trabalhos
+Flow = app de descoberta, reputacao, mapa e conversa para servicos locais
 
-BarberFlow = primeira implementacao valida e pronta para lancamento
+BarberFlow = primeira categoria forte dentro do Flow, nao app separado
 
 Flow repo paralelo = construcao do core multisservicos com onboarding, workspace, agenda e discovery proprios
 
 ## Launch Priority
 
-- lancar BarberFlow de forma controlada
-- focar marketing em barbeiros
+- passar App Review iOS
+- garantir build confiavel no Codemagic
+- manter iOS sem criacao de prestador enquanto o modelo Apple-safe nao estiver decidido
+- validar experiencia cliente primeiro
+- lancar de forma controlada com foco em barbeiros
 - medir tracao real
 - expandir categorias apenas depois de sinais claros
 
@@ -63,18 +66,19 @@ Flow repo paralelo = construcao do core multisservicos com onboarding, workspace
 - site repo: `https://github.com/Israel-Bryant/sphinyx-shop`
 - app repo: `https://github.com/Israel-Bryant/barberflow-sphynix`
 - vault repo: `https://github.com/Israel-Bryant/sphynix-obisidian`
-- branch principal: `main`
+- app Flutter local: `C:\Users\israe\OneDrive\Documents\Projetos\Flow`
+- branch compliance iOS: `ios-review-compliance-flow`
+- commit compliance iOS: `68bfe89 Prepare iOS review compliance build`
 - site stack: Next.js 16 + React 19 + TypeScript + Tailwind CSS 4
 - app stack: Flutter + Firebase Functions
 
 ## App Context
 
-- repo app Flutter: `https://github.com/Israel-Bryant/barberflow-sphynix`
-- branch: `main`
 - build iOS atual: via `Codemagic`
 - signing Apple: ja configurado em nivel operacional
-- build iOS ja gerada e visivel no App Store Connect
-- foco tecnico imediato: destravar a ficha da versao/submissao no App Store Connect
+- App Store Review apontou Guideline 3.1.1 por cadastro profissional/negocio
+- iOS foi ajustado para esconder criacao/ativacao de prestador temporariamente
+- foco tecnico imediato: confirmar branch/repo do Codemagic e gerar build correta
 
 ## Important Routes
 
@@ -91,16 +95,18 @@ Flow repo paralelo = construcao do core multisservicos com onboarding, workspace
 - `sphynix.com` esta no ar e servindo a experiencia web do BarberFlow
 - as paginas legais do BarberFlow ja existem no dominio oficial
 - o app Flutter ja recebeu Apple Sign-In, exclusao de conta e endurecimento de agenda
-- a compra nativa no iPhone esta bloqueada por design ate existir backend real para validacao da App Store
-- a build iOS `1.0.1 (11)` ja foi validada pela Apple, provando que o binario esta saudavel
-- a ficha antiga do App Store Connect foi descartada e o iOS agora segue em um novo app record com bundle id `com.sphynx.barberflowapp`
+- a compra nativa no iPhone segue bloqueada por design ate existir backend/modelo real de validacao
+- a ficha antiga do App Store Connect foi descartada e o iOS segue em app record novo
 - o foco operacional atual e lancar sem regressao, nao abrir nova frente de produto
-- em paralelo, o `Flow` esta sendo estruturado em repo proprio como produto social + operacional
+- em paralelo, o `Flow` esta sendo estruturado como produto social + operacional
 - o `Flow` ja tem base de onboarding de prestador, workspace/time, convite, agenda real e perfil publico
 - a linguagem desejada do `Flow` e `fluidez social com consequencia operacional`
 
 ## Source of Truth
 
+- Flow App dashboard: [[Flow App/00 - Flow App Dashboard]]
+- progress map: [[Flow App/01 - Progress Map]]
+- roadmap: [[Flow App/02 - Roadmap Longo Prazo]]
 - AI memory index: [[AI Memory/00 - AI Memory Hub]]
 - repositorios: [[AI Memory/15 - Repositorios]]
 - estado operacional: [[10 - Estado Atual]]
@@ -121,3 +127,4 @@ Flow repo paralelo = construcao do core multisservicos com onboarding, workspace
 - nao remover a camada social do conceito do produto
 - nao expandir cedo demais sem validacao do nicho
 - nao assumir que premium iOS nativo ja esta pronto
+- nao reabrir cadastro profissional no iOS sem resolver IAP/modelo Apple-safe

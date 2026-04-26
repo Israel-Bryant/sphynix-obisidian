@@ -1,0 +1,124 @@
+{
+  "nodes": [
+    {
+      "id": "dashboard",
+      "type": "file",
+      "file": "Projetos/Sphynix/Flow App/00 - Flow App Dashboard.md",
+      "x": 520,
+      "y": 40,
+      "width": 360,
+      "height": 210,
+      "color": "4"
+    },
+    {
+      "id": "appreview",
+      "type": "text",
+      "text": "# App Review iOS\n70%\n\n- 3.1.1 corrigido no codigo\n- falta garantir build correta\n- revisar screenshots antigas",
+      "x": 60,
+      "y": 330,
+      "width": 320,
+      "height": 210,
+      "color": "3"
+    },
+    {
+      "id": "ux",
+      "type": "text",
+      "text": "# UX Premium\n80%\n\n- visual forte\n- discovery em boa direcao\n- falta padronizar copy, contraste e estados vazios",
+      "x": 430,
+      "y": 330,
+      "width": 320,
+      "height": 210,
+      "color": "2"
+    },
+    {
+      "id": "tech",
+      "type": "text",
+      "text": "# Tecnico / CI\n55%\n\n- Flutter OK\n- analyze/test OK\n- falta Codemagic e branch canonica\n- discovery_hub_page precisa modularizar",
+      "x": 800,
+      "y": 330,
+      "width": 320,
+      "height": 210,
+      "color": "5"
+    },
+    {
+      "id": "money",
+      "type": "file",
+      "file": "Projetos/Sphynix/Flow App/05 - Decisao Monetizacao iOS.md",
+      "x": 1170,
+      "y": 330,
+      "width": 320,
+      "height": 210,
+      "color": "1"
+    },
+    {
+      "id": "roadmap",
+      "type": "file",
+      "file": "Projetos/Sphynix/Flow App/02 - Roadmap Longo Prazo.md",
+      "x": 250,
+      "y": 640,
+      "width": 340,
+      "height": 190,
+      "color": "6"
+    },
+    {
+      "id": "log",
+      "type": "file",
+      "file": "Projetos/Sphynix/Flow App/03 - Log de Progresso.md",
+      "x": 780,
+      "y": 640,
+      "width": 340,
+      "height": 190,
+      "color": "4"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "dashboard",
+      "toNode": "appreview",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "color": "3"
+    },
+    {
+      "id": "e2",
+      "fromNode": "dashboard",
+      "toNode": "ux",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "color": "2"
+    },
+    {
+      "id": "e3",
+      "fromNode": "dashboard",
+      "toNode": "tech",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "color": "5"
+    },
+    {
+      "id": "e4",
+      "fromNode": "dashboard",
+      "toNode": "money",
+      "fromSide": "right",
+      "toSide": "top",
+      "color": "1"
+    },
+    {
+      "id": "e5",
+      "fromNode": "dashboard",
+      "toNode": "roadmap",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "color": "6"
+    },
+    {
+      "id": "e6",
+      "fromNode": "dashboard",
+      "toNode": "log",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "color": "4"
+    }
+  ]
+}
